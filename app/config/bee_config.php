@@ -26,7 +26,7 @@ define('ROOT', getcwd().DS);
 define('APP', ROOT.'app'.DS);
 define('CLASSES', APP.'classes'.DS);
 define('CONFIG', APP.'config'.DS);
-define('CONTROLERS', APP.'controllers'.DS);
+define('CONTROLLERS', APP.'controllers'.DS);
 define('FUNCTIONS', APP.'functions'.DS);
 define('MODELS', APP.'models'.DS);
 
@@ -60,3 +60,8 @@ define('DB_NAME', '__REMOTE DB__');
 define('DB_USER', '__REMOTE DB__');
 define('DB_PASS', '__REMOTE DB__');
 define('DB_CHARSET', '__REMOTE CHARSET__');
+
+// El controlador por defecto / el método por defecto / y el controlador de errores por defecto 
+define('DEFAULT_CONTROLLER', 'home');
+define('DEFAULT_ERROR_CONTROLLER', 'error');
+define('DEFAULT_METHOD', 'index');
